@@ -1,0 +1,39 @@
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 1vh;
+  background-image: url(index.jpg);
+  background-size: 100% 1000px;
+}
+
+.timer__container {
+  background: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 80px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+}
+
+.container .js-dday {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.container .dday-timer {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e74c3c;
+}
